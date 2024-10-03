@@ -21,10 +21,16 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 
 ## Program:
 ```
-/*
+
 Program to implement the Decision Tree Classifier Model for Predicting Employee Churn.
-Developed by: Stephen raj Y
-RegisterNumber: 212223230217
+Developed by  : RAKSHA DHARANIKA V
+RegisterNumber: 212223230167
+```
+
+
+```py
+
+
 import pandas as pd
 data=pd.read_csv(r"C:\Users\admin\Downloads\Employee.csv")
 data.head()
@@ -49,21 +55,20 @@ from sklearn import metrics
 accuracy=metrics.accuracy_score(y_test,y_pred)
 accuracy
 dt.predict([[0.5,0.8,9,260,6,0,1,2]])
-*/
+
 ```
 
 ## Output:
 
-![image](https://github.com/user-attachments/assets/9bc5ab24-c868-4470-a141-d5ec9f911d55)
+## Data:
+![image](https://github.com/user-attachments/assets/da089c47-8a55-46f4-bc0d-429a22f20db1)
+
 
 ## Accuracy:
+![image](https://github.com/user-attachments/assets/55901507-24d1-4837-8f67-e6fdde5de10d)
 
-![image](https://github.com/user-attachments/assets/c02b9c12-0a1e-471b-b3aa-7e1e73e9ba0c)
-
-## New predicted:
-
-![image](https://github.com/user-attachments/assets/5e183a62-2932-4fac-8bcd-8e730c6a28a8)
-
+## predicted value:
+![image](https://github.com/user-attachments/assets/d665f7b2-7a27-4149-910a-e8f36e07e3ec)
 
 
 ## Result:
